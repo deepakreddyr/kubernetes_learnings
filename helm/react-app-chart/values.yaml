@@ -1,0 +1,21 @@
+replicaCount: 1
+
+image:
+  repository: deepak1483/react-app  # Replace with your Docker image repository
+  tag: latest                           # Replace with your Docker image tag
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP                       # You can use LoadBalancer if you want it externally accessible
+  port: 80
+
+ingress:
+  enabled: false                        # Set to true if you want to enable Ingress
+
+resources: {}                           # Optional resource limits
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
