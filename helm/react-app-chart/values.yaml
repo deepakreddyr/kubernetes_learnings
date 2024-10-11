@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: deepak/react-app  # Replace with your Docker image repository
-  tag: 01                        # Replace with your Docker image tag
+  tag: 1.1                        # Replace with your Docker image tag
   pullPolicy: IfNotPresent
 
 service:
