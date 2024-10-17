@@ -2,7 +2,7 @@ app1:
   name: app1
   image: 
     repository: deepak1483/react-app
-    tag: 1.3
+    tag: 1.2
   port: 5000
   replicaCount: 2
   path: /app1  # Custom path for app1
