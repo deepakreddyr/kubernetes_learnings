@@ -1,0 +1,20 @@
+app1:
+  name: app1
+  image: 
+    repository: deepak1483/react-app
+    tag: 1.3
+  port: 5000
+  replicaCount: 2
+  path: /app1  # Custom path for app1
+
+app2:
+  name: app2
+  image:
+    repository: deepak1483/react-app
+    tag: 1.4
+  port: 5001
+  replicaCount: 2
+  path: /app2  # Custom path for app2
+
+ingress:
+  host: myapps.example.com
